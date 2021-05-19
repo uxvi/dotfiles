@@ -1,0 +1,15 @@
+#!/bin/bash
+memused() {
+	awk '/^Mem/ {print $3}' <(free -m)
+}
+
+memtotal() {
+	awk '/^Mem/ {print $2}' <(free -m)
+}
+
+output() {
+	echo "$(memused)M/$(memtotal)M"
+	
+
+}
+output

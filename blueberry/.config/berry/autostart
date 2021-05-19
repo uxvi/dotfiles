@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# autostart
+sxhkd -c $HOME/.config/berry/sxhkdrc &
+xrdb $HOME/.Xresources &
+hsetroot -cover /home/anya/Pictures/640.jpg &
+captain | lemonbar -p &
+picom --experimental-backends --config ~/picom.com -b &
+
+# Set decoration geometry
+berryc border_width       0
+berryc inner_border_width 0
+berryc title_height       15
+berryc top_gap            15        
+
+# Set decoration colors
+berryc inner_focus_color   268BD2
+berryc inner_unfocus_color 17364B
+berryc text_focus_color    ffffff
+berryc text_unfocus_color  eeeeee
+
+# Other options
+berryc smart_place "true"
+berryc draw_text   "true"
+berryc edge_lock   "false"
+berryc set_font    "orp-8"

@@ -1,0 +1,32 @@
+
+[bar]
+background = "#FF101010"
+foreground = "#FFFFFFFF"
+
+format = " name|title| cpu meminfo | date"
+height = 15
+fonts = "orp-9"
+dock = "top"
+force = true
+offset = 0
+
+[name]
+manual=true
+
+[meminfo]
+manual = true
+
+[date]
+underline = false
+reload = 5
+
+[title]
+
+scroll-up = "notify-send 'Scrolled up!'"
+scroll-down = "notify-send 'Scrolled down!'"
+mouse-middle = "notify-send 'Middle click!'"
+mouse-left = "notify-send 'Left click!'"
+mouse-right = "notify-send 'Right click!'"
+reload = "xtitle -s"
+
+# vim:syntax=dosini
