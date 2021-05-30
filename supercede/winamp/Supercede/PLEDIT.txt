@@ -1,0 +1,8 @@
+[Text]
+Normal=#878883
+Current=#CECECE
+NormalBG=#000000
+SelectedBG=#000000
+Font=kroeger 05_55 caps
+mbFG=#7C7C7C
+mbBG=#000000

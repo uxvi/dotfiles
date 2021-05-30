@@ -1,0 +1,101 @@
+! =========================================================================================
+! xoblite bb5 -> an advanced "extended shell" for Microsoft Windows 10
+! Copyright � 2002-2020 Karl Henrik Henriksson [qwilk/@xoblite]
+! Copyright � 2001-2004 The Blackbox for Windows Development Team
+! http://xoblite.net/ + https://github.com/xoblite/
+! =========================================================================================
+
+! ================================================ xoblite [theme specific settings] ======
+
+! ----------------------------------------- Design ------
+xoblite.styleFile: $CurrentTheme$\styles\supercede.style
+
+! ------------------------------------------- Menu ------
+xoblite.menu.separators: false
+xoblite.menu.transparency.alpha: 255
+xoblite.menu.title.transparency.alpha: 255
+xoblite.menu.frame.transparency.alpha: 255
+xoblite.menu.active.transparency.alpha: 255
+xoblite.menu.grip.transparency.alpha: 255
+xobltie.menu.rounded: true
+
+! ---------------------------------------- Toolbar ------
+xoblite.toolbar.hidden: false
+xoblite.toolbar.placement: Manual x10 y5
+xoblite.toolbar.vertical: false
+xoblite.toolbar.horizontal.width: 99
+!xoblite.toolbar.vertical.width: 250
+xoblite.toolbar.transparency.alpha: 255
+xoblite.toolbar.label.transparency.alpha: 255
+xoblite.toolbar.windowlabel.transparency.alpha: 255
+xoblite.toolbar.clock.transparency.alpha: 255
+xoblite.toolbar.button.transparency.alpha: 255
+xoblite.toolbar.rounded: true
+xoblite.toolbar.onTop: false
+xoblite.toolbar.snapToEdges: true
+
+! ---------------------------------------- Taskbar ------
+xoblite.taskbar.mode: Bars
+xoblite.taskbar.currentOnly: false
+xoblite.taskbar.flashing: false
+xoblite.taskbar.saturation: 128
+xoblite.taskbar.hue: 192
+xoblite.taskbar.active.SatHue: false
+xoblite.taskbar.active.transparency.alpha: 255
+xoblite.taskbar.inactive.background: false
+xoblite.taskbar.tooltips: false
+
+! ------------------------------------------- Dock ------
+xoblite.dock.hidden: true
+xoblite.dock.placement: Manual xC y49
+xoblite.dock.vertical: true
+xoblite.dock.puzzle.positioning: true
+xoblite.dock.transparency.alpha: 255
+xoblite.dock.onTop: false
+xoblite.dock.snapToEdges: false
+
+! ---------------------------------------- Console ------
+xoblite.console.hidden: true
+xoblite.console.placement: Manual xC y-20
+xoblite.console.maximized: false
+xoblite.console.maximized.width: -40
+xoblite.console.maximized.messages: 30
+xoblite.console.restored.width: -40
+xoblite.console.restored.messages: 10
+xoblite.console.transparency.alpha: 255
+xoblite.console.desktop.mode: true
+xoblite.console.rounded: false
+xoblite.console.padding: 0
+!xoblite.console.font: Segoe UI/15/Normal
+
+! ---------------------------------------- Desktop ------
+xoblite.desktop.clock.hidden: true
+xoblite.desktop.clock.type: Regular
+xoblite.desktop.clock.placement: Manual x100 yC
+xoblite.desktop.clock.transparency.alpha: 210
+xoblite.desktop.clock.font: BM tube/250/Normal
+
+xoblite.desktop.weekday.hidden: true
+xoblite.desktop.weekday.placement: Manual x30 y24
+xoblite.desktop.weekday.transparency.alpha: 110
+xoblite.desktop.weekday.font: Bebas Neue Regular/30/Normal
+
+xoblite.desktop.date.hidden: true
+xoblite.desktop.date.format: %B %#d %Y
+xoblite.desktop.date.placement: Manual x-30 y24
+xoblite.desktop.date.transparency.alpha: 110
+xoblite.desktop.date.font: Bebas Neue Regular/30/Normal
+
+xoblite.desktop.indicator.hidden: true
+xoblite.desktop.border.hidden: true
+
+! ---------------------------------------- Plugins ------
+xoblite.plugins.hidden: false
+
+! ----------------------------------------- Global ------
+xoblite.write.protection: false
+
+! =========================================================================================
+xoblite.taskbar.active.live.preview: false
+xoblite.taskbar.max.items: 8
+xoblite.menu.rounded: false

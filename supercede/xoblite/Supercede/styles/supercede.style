@@ -1,0 +1,105 @@
+! style here:
+style.name: Supercede
+style.author: oko
+style.date: 4/28/2021
+style.credits: oko403@protonmail.com
+style.comments: https://oko.moe
+
+! toolbar here:
+toolbar: flat bevel1 solid 
+toolbar.color: #000000
+toolbar.colorTo: #000000
+toolbar.button: ParentRelative
+toolbar.button.color: #000000
+toolbar.button.colorTo: #000000
+toolbar.button.picColor: #FFFFFF
+toolbar.button.pressed: flat
+toolbar.button.pressed.color: #000000
+toolbar.button.pressed.colorTo: #000000
+toolbar.button.pressed.picColor: #000000
+toolbar.label: ParentRelative
+toolbar.label.color: #000000
+toolbar.label.colorTo: #000000
+toolbar.label.textColor: #FFFFFF
+toolbar.windowLabel: flat
+toolbar.windowLabel.color: #000000
+toolbar.windowLabel.colorTo: #000000
+toolbar.windowLabel.textColor: #878883
+toolbar.clock: ParentRelative
+toolbar.clock.color: #000000
+toolbar.clock.colorTo: #000000
+toolbar.clock.textColor: #FFFFFF
+
+! menu here:
+menu.title: flat bevel1 solid 
+menu.title.color: #000000
+menu.title.colorTo: #000000
+menu.title.textColor: #FFFFFF
+menu.frame: flat bevel1 solid 
+menu.frame.color: #000000
+menu.frame.colorTo: #000000
+menu.frame.textColor: #FFFFFF
+menu.frame.disableColor: #000000
+menu.hilite.color: #000000
+menu.hilite.colorTo: #000000
+menu.hilite.textColor: #878883
+menu.bullet: empty
+menu.bullet.position: right
+
+! window here:
+window.title.focus: flat bevel1 gradient pyramid 
+window.title.focus.color: #000000
+window.title.focus.colorTo: #000000
+window.title.unfocus: flat bevel1 solid pyramid 
+window.title.unfocus.color: #000000
+window.title.unfocus.colorTo: #000000
+window.label.focus: flat bevel1 gradient pyramid 
+window.label.focus.color: #FFFFFF
+window.label.focus.colorTo: #FFFFFF
+window.label.focus.textColor: #000000
+window.label.unfocus: flat bevel1 gradient pyramid 
+window.label.unfocus.color: #000000
+window.label.unfocus.colorTo: #000000
+window.label.unfocus.textColor: #FFFFFF
+window.handle.focus: flat bevel1 solid pyramid 
+window.handle.focus.color: #000000
+window.handle.focus.colorTo: #000000
+window.handle.unfocus: flat bevel1 gradient pyramid 
+window.handle.unfocus.color: #000000
+window.handle.unfocus.colorTo: #000000
+window.grip.focus: flat bevel1 gradient pyramid 
+window.grip.focus.color: #000000
+window.grip.focus.colorTo: #000000
+window.grip.unfocus: flat bevel1 gradient pyramid 
+window.grip.unfocus.color: #000000
+window.grip.unfocus.colorTo: #000000
+window.button.focus: flat bevel1 gradient horizontal 
+window.button.focus.color: #000000
+window.button.focus.colorTo: #000000
+window.button.focus.picColor: #FFFFFF
+window.button.unfocus: flat bevel1 gradient horizontal 
+window.button.unfocus.color: #000000
+window.button.unfocus.colorTo: #000000
+window.button.unfocus.picColor: #FFFFFF
+window.button.pressed: flat bevel1 gradient rectangle 
+window.button.pressed.color: #FFFFFF
+window.button.pressed.colorTo: #FFFFFF
+window.button.pressed.picColor: #000000
+window.frame.focusColor: #FFFFFF
+window.frame.unfocusColor: #FFFFFF
+
+! slit here:
+slit: bevel1 solid 
+slit.color: #000000
+slit.colorTo: #000000
+
+! Fonts here:
+
+*font: kroeger 05_55 caps/10/Normal
+
+! Misc here:
+borderColor: #000000
+bevelWidth: 1
+borderWidth: 1
+frameWidth: 1
+handleWidth: 1
