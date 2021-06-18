@@ -2,10 +2,13 @@
 my messy dotfiles. 
 
 ## Supercede
-![supercede](https://cdn.discordapp.com/attachments/675169191384317961/847748539944534036/supercede-update.png)
-
+![supercede](https://cdn.discordapp.com/attachments/675169191384317961/847748539944534036/supercede-update.png)\
 (xoblite, Windows)
-## Blueberry
-![blueberry](https://i.redd.it/nt9aqlr5lsy61.png)
 
+## Blueberry
+![blueberry](https://i.redd.it/nt9aqlr5lsy61.png)\
 (berrywm, Linux)
+
+## Tenm
+![tenm](https://i.redd.it/66vy7dxnez571.png)\
+(Windows)
